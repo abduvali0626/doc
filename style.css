@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./latest-image-from-the-surface-of-mars-on-january-15-2024-v0-44etcn4g9tcc1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+button {
+    width: 560px;
+    height: 90px;
+    border: none;
+    border-radius: 30px;
+    background-color: aqua;
+}
+
+@media (max-width:300px) {
+    body {
+        height: 100vh;
+    }
+}
